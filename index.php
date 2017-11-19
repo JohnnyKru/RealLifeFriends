@@ -418,7 +418,7 @@
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 						<div class="fh5co-intro fh5co-table-cell animate-box">
 							<h1 class="text-center">Helping our customer to be fit. Physically and mentally. </h1>
-							<p>Lets get started..! <a href="index.php">FreeHTML5.co</a></p>
+							<p>Lets get started..! <a href="index.php">Here.</a></p>
 						</div>
 					</div>
 				</div>
