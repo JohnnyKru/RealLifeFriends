@@ -71,39 +71,9 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.php">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
+						<h1 id="fh5co-logo" style="color:black; box-shadow: 5px 5px 20px rgba(0,0,0,1);"><a href="index.php">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
 						<!-- START #fh5co-menu-wrap -->
-						<nav id="fh5co-menu-wrap" role="navigation">
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li>
-									<a href="index.php">Home</a>
-								</li>
-								<li>
-									<a href="classes.php" class="fh5co-sub-ddown">Classes</a>
-									 <ul class="fh5co-sub-menu">
-									 	<li><a href="left-sidebar.html">BODY</a></li>
-									 	<li><a href="right-sidebar.html">MIND</a></li>
-										<li>
-											<a href="#" class="fh5co-sub-ddown">MORE...</a>
-											<ul class="fh5co-sub-menu">
-												<li><a href="#" target="_blank">Food Recipe</a></li>
-												<li><a href="#" target="_blank">Volunteer</a></li>
-												<li><a href="#" target="_blank">VIDEOS</a></li>
-												<li><a href="#" target="_blank">Boxing</a></li>
-												<li><a href="#" target="_blank">Yoga</a></li>
-												<li><a href="#" target="_blank">Relationship</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="schedule.php">Schedule</a>
-								</li>
-								<li><a href="trainer.php">Trainers</a></li>
-								<li><a href="about.php">About</a></li>
-								<li class="active"><a href="contact.php">Contact</a></li>
-							</ul>
-						</nav>
+                        <?php include('nav.php'); ?>
 					</div>
 				</div>
 			</header>		
@@ -128,6 +98,7 @@
 				<form action="#">
 					<div class="row">
 						<div class="col-md-6 animate-box">
+							<div class="logo col-lg-6 img-responsive"></div>
 							<h3 class="section-title">Our Address</h3>
 							<p>Thank you so much for your interest! Real Life Friends is a powerful program for helping you to add skills to an existing career or start an entirely new one!</p>
 							<p> The skills we offer will help take your life to the next level of optimum living.</p>  
@@ -179,7 +150,6 @@
 							<p>Thank you so much for your interest! Real Life Friends is a powerful program for helping you to add skills to an existing career or start an entirely new one!</p>
 							<p> The skills we offer will help take your life to the next level of optimum living.</p>  
 							<p>“The power is within you. It always has been. How far are you willing to expand the horizons of your thinking and stir that power awake?”</p>
-							
 						</div>
 
 						<div class="col-md-4 animate-box">

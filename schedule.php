@@ -71,46 +71,16 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.php">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
+						<h1 id="fh5co-logo" style="color:black; box-shadow: 5px 5px 20px rgba(0,0,0,1);"><a href="index.php">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
 						<!-- START #fh5co-menu-wrap -->
-						<nav id="fh5co-menu-wrap" role="navigation">
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li>
-									<a href="index.php">Home</a>
-								</li>
-								<li>
-									<a href="classes.php" class="fh5co-sub-ddown">Classes</a>
-									 <ul class="fh5co-sub-menu">
-									 	<li><a href="left-sidebar.html">BODY</a></li>
-									 	<li><a href="right-sidebar.html">MIND</a></li>
-										<li>
-											<a href="#" class="fh5co-sub-ddown">MORE...</a>
-											<ul class="fh5co-sub-menu">
-												<li><a href="#" target="_blank">Food Recipe</a></li>
-												<li><a href="#" target="_blank">Volunteer</a></li>
-												<li><a href="#" target="_blank">VIDEOS</a></li>
-												<li><a href="#" target="_blank">Boxing</a></li>
-												<li><a href="#" target="_blank">Yoga</a></li>
-												<li><a href="#" target="_blank">Relationship</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="active">
-								<a href="schedule.php">Schedule</a> 
-								</li>
-								<li><a href="trainer.php">Trainers</a></li>
-								<li><a href="about.php">About</a></li>
-								<li><a href="contact.php">Contact</a></li>
-							</ul>
-						</nav>
+                        <?php include('nav.php'); ?>
 					</div>
 				</div>
 			</header>		
 		</div>
 		<!-- end:fh5co-header -->
-		<div class="fh5co-parallax" style="background-image: url(images/home-image-5.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
+		<div class="fh5co-parallax" style="background-image: url(images/RLF/pexels-photo-325521.jpeg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"><center><div class="logo col-lg-12 img-responsive"></div></center></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
@@ -128,8 +98,8 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="heading-section text-center animate-box">
-							<h2>Class Schedule</h2>
-							<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<h2>Schedule</h2><center>
+							<p>Click on days to get list & Time.</p>
 						</div>
 					</div>
 				</div>
@@ -146,40 +116,39 @@
 						</ul>
 					</div>
 					<div class="row text-center">
-
 						<div class="col-md-12 schedule-container">
 
 							<div class="schedule-content active" data-day="sunday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
+										<h3>Business</h3>
 										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/bibleIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
@@ -188,71 +157,70 @@
 							<div class="schedule-content" data-day="monday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
-										<span>James Smith</span>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
-										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Business</h3>
+										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
-								
+								<div class="col-md-3 col-sm-6">
+									<div class="program program-schedule">
+										<img src="images/bibleIcon.png" alt="">
+										<small>06AM-7AM</small>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
+									</div>
+								</div>
 							</div>
 							<!-- END sched-content -->
 
 							<div class="schedule-content" data-day="tuesday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
+										<h3>Business</h3>
 										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/bibleIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
@@ -261,34 +229,34 @@
 							<div class="schedule-content" data-day="wednesday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
-										<span>James Smith</span>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
-										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Business</h3>
+										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="program program-schedule">
+										<img src="images/bibleIcon.png" alt="">
+										<small>06AM-7AM</small>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
@@ -297,34 +265,34 @@
 							<div class="schedule-content" data-day="thursday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
+										<h3>Business</h3>
 										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/bibleIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
@@ -333,34 +301,34 @@
 							<div class="schedule-content" data-day="friday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
-										<span>James Smith</span>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
-										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Business</h3>
+										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="program program-schedule">
+										<img src="images/bibleIcon.png" alt="">
+										<small>06AM-7AM</small>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
@@ -369,68 +337,67 @@
 							<div class="schedule-content" data-day="saturday">
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-dumbell.svg" alt="Cycling">
+										<img src="images/doveIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Body Building</h3>
+										<h3>Community</h3>
 										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-yoga.svg" alt="">
+										<img src="images/handIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Yoga Programs</h3>
+										<h3>Business</h3>
 										<span>James Smith</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-cycling.svg" alt="">
+										<img src="images/earthIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Cycling Program</h3>
-										<span>Rita Doe</span>
+										<h3>Youth Outreach</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6">
 									<div class="program program-schedule">
-										<img src="images/fit-boxing.svg" alt="Cycling">
+										<img src="images/bibleIcon.png" alt="">
 										<small>06AM-7AM</small>
-										<h3>Boxing Fitness</h3>
-										<span>John Dose</span>
+										<h3>Mentorship</h3>
+										<span>John Doe</span>
 									</div>
 								</div>
 							</div>
 							<!-- END sched-content -->
-						</div>
-
-						
+						</div>	
 					</div>
 				</div>
 			</div>
 		</div>
+			
 		<div id="fh5co-programs-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="heading-section text-center animate-box">
 							<h2>Our Programs</h2>
-							<p>Amazing classes that will give you the skills to reach your goals..</p>
+							<p>Take the first step in Finding who you are through Christ.</p>
 						</div>
 					</div>
 				</div>
 				<div class="row text-center col-lg-12 col-lg-offset-2">
 					<div class="col-md-4 col-sm-6 col-lg-4">
 						<div class="program animate-box">
-							<img src="images/fit-dumbell.svg" alt="Cycling">
-							<h3>Body</h3>
-							<p>Fitness - Workout plans. <br>[workout-App Coming soon ]</p>
+							<img src="images/bibleIcon.png" alt="">
+							<h3>Mentorship</h3>
+							<p>[ Your Description will go here. .] <br>[ ]</p>
 							<span><a href="#" class="btn btn-default">Join Now</a></span>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4">
 						<div class="program animate-box">
-							<img src="images/fit-yoga.svg" alt="">
-							<h3>Mind </h3>
+							<img src="images/doveIcon.png" alt="">
+							<h3>Community</h3>
 							<p><li>Volunteer Events & Community events.</li>
                                <li>Find your purpose by helping others.</li>
                                     </p>
@@ -448,24 +415,31 @@
 					</div>-->
 					<div class="col-md-4 col-sm-6">
 						<div class="program animate-box">
-							<img src="images/fit-boxing.svg" alt="Cycling">
-							<h3>Boxing Fitness</h3>
-							<p>Boxing has always been a metaphor to life. Boxing is the best way to releaes stress. Taught by Raleigh's top coaches. You will find what your  </p>
+							<img src="images/earthIcon.png" alt="">
+							<h3>Youth Outreach</h3>
+							<p>[ Your Description will go here. .]</p>
 							<span><a href="#" class="btn btn-default">Join Now</a></span>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
 						<div class="program animate-box">
-							<img src="images/fit-swimming.svg" alt="">
-							<h3> Active living</h3>
-							<p><li>Always be in the know on deals around town. </li>
-								<li>Food & Recipe ideas</li> 
-								<li>Free Weekly Plans & grocery list.</li> 
-								<li>Relationships tools </li>
-                            </p>
+							<img src="images/handIcon.png" alt="">
+							<h3> Business</h3>
+							<p>[ Your Description will go here. .]</p>
 							<span><a href="#" class="btn btn-default">Join Now</a></span>
 						</div>
 					</div>
+					<!--<div class="col-md-4 col-sm-6">
+						<div class="program animate-box">
+							<img src="images/fit-massage.svg" alt="">
+							<h3>Massage</h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+							<span><a href="#" class="btn btn-default">Join Now</a></span>
+						</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
 					<!--<div class="col-md-4 col-sm-6">
 						<div class="program animate-box">
 							<img src="images/fit-massage.svg" alt="">

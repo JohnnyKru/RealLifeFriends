@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fitness &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Real Life Friends</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -71,45 +71,15 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
+						<h1 id="fh5co-logo" style="color:white; box-shadow: 5px 5px 20px rgba(0,0,0,1);"><a href="index.php">Real&nbsp;<span>LIFE &nbsp;</span>FRIENDS</a></h1>
 						<!-- START #fh5co-menu-wrap -->
-						<nav id="fh5co-menu-wrap" role="navigation">
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li>
-									<a href="index.php">Home</a>
-								</li>
-								<li>
-									<a href="classes.html" class="fh5co-sub-ddown">Classes</a>
-									 <ul class="fh5co-sub-menu">
-									 <li><a href="left-sidebar.html">BODY</a></li>
-									 	<li><a href="right-sidebar.html">MIND</a></li>
-										    <a href="#" class="fh5co-sub-ddown">MORE...</a>
-										</li>	
-											<ul class="fh5co-sub-menu">
-												<li><a href="#" target="_blank">Body</a></li>
-												<li><a href="#" target="_blank">Mind</a></li>
-												<li><a href="#" target="_blank">Boxing</a></li>
-												<li><a href="#" target="_blank">Cycling</a></li>
-												<li><a href="#" target="_blank">Yoga</a></li>
-												<li><a href="#" target="_blank">Relationship</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="schedule.php">Schedule</a>
-								</li>
-								<li><a href="trainer.php">Trainers</a></li>
-								<li class="active"><a href="about.php">About</a></li>
-								<li><a href="contact.php">Contact</a></li>
-							</ul>
-						</nav>
+                        <?php include('nav.php'); ?>
 					</div>
 				</div>
 			</header>		
 		</div>
 		<!-- end:fh5co-header -->
-		<div class="fh5co-parallax" style="background-image: url(images/home-image-4.jpg);" data-stellar-background-ratio="0.5">
+		<div class="fh5co-parallax" style="background-image: url(images/1254.jpg); height:500px;" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -127,14 +97,14 @@
 			<div class="container">
 				<div class="row about">
 					<div class="col-md-12 col-md-offset-0">
-						<img class="img-responsive animate-box" src="images/home-image-3.jpg" alt="About">
+						
 					</div>
-					<div class="col-md-12 col-md-offset-0 animate-box">
-						<p>“How to be happy in life?” is a very common question. We hear it a lot from our life coaching clients. Happiness is, no doubt, the most important thing in our life. 
-						<blockquote>
+					<div class="col-md-12 col-md-offset-2 col-lg-8 animate-box">
+						<p>“How to be happy in life?” is a very common question. We hear it a lot from our life coaching clients. Happiness is, no doubt, the most important thing in our life. </p>
+						<blockquote style="color:red;">
 						If we are happy with ourselves, happy with our health, happy with our relationships, happy with our career and happy with our finances, there is not much else we need.
                         </blockquote>
-						Unfortunately, most people are not happy, at least not as happy as they would like to be. 
+						<p>Unfortunately, most people are not happy, at least not as happy as they would like to be. 
 						To be happy, we can take charge of our life, grow our confidence, become people-magnets, improve our lifestyle and follow our dreams.</p>
 						
 						 
